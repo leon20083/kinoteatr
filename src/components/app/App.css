@@ -1,0 +1,52 @@
+.header {
+  /* width: 90%; */
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2em;
+}
+.header > form > input {
+  background-color: rgb(48, 44, 115);
+  color: #fff;
+  padding: 0.5em;
+  outline: none;
+  border-radius: 10em;
+  border: none;
+  font-size: 20px;
+}
+.header > form > input::placeholder {
+  color: #fff;
+  opacity: 0.5;
+  padding-left: 1rem;
+}
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.movie_block {
+  width: 300px;
+  color: #fff;
+  background-color: rgb(48, 44, 115);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 1em;
+  margin: 1em;
+}
+.movie_block > img {
+  width: 90%;
+  max-height: 85%;
+}
+.movie_block > h3 {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 20px;
+}
