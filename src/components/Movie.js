@@ -1,8 +1,14 @@
-const Movie = ({ image, title }) => {
+const Movie = ({ small_poster, name_russian, year, current_page }) => {
   return (
     <div className="movie_block">
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
+      <div className="img-wrap">
+        <img src={small_poster} alt={name_russian} />
+      </div>
+      <h3>
+        <a href="">
+          {name_russian}, ({year})
+        </a>
+      </h3>
     </div>
   );
 };

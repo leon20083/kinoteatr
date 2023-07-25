@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/kinoteatr/static/css/main.de245a55.css",
+    "main.js": "/kinoteatr/static/js/main.df91130a.js",
+    "index.html": "/kinoteatr/index.html",
+    "main.de245a55.css.map": "/kinoteatr/static/css/main.de245a55.css.map",
+    "main.df91130a.js.map": "/kinoteatr/static/js/main.df91130a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de245a55.css",
+    "static/js/main.df91130a.js"
+  ]
+}

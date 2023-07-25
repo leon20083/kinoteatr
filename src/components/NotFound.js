@@ -1,20 +1,14 @@
-const NotFound = ({ onNotFound }) => {
+import React from "react";
+
+export default function NotFound({ onNotFound }) {
   return (
-    <div style={{ margin: "0 auto" }}>
-      <h1 style={{ color: "#fff" }}>No results :(</h1>
+    <div>
+      <h1>No results :(</h1>
       <input
-        type="button"
+        type="btn"
         defaultValue="Вернуться на главную страницу"
-        style={{
-          padding: ".3em .5em",
-          cursor: "pointer",
-          borderRadius: ".5em",
-          border: "none",
-        }}
         onClick={() => onNotFound()}
       />
     </div>
   );
-};
-
-export default NotFound;
+}

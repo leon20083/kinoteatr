@@ -1,0 +1,63 @@
+body {
+  background: rgb(65, 63, 128);
+}
+body header {
+  width: 90%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em;
+  text-align: right;
+}
+body header input {
+  background: rgb(40, 36, 151);
+  color: #fff;
+  padding: 1em;
+  border-radius: 10em;
+  outline: none;
+  border: none;
+  box-shadow: 0px 5px 5px #110f44;
+}
+body header input::placeholder {
+  color: #fff;
+}
+body .movies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+body .movies .movie_block {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  color: #fff;
+  background: #110f44;
+  padding: 1em;
+  margin: 1em 1em;
+}
+body .movies .movie_block .img-wrap {
+  width: 98%;
+  height: 220px;
+  margin: 0 auto;
+}
+body .movies .movie_block .img-wrap img {
+  width: 100%;
+  height: 100%;
+}
+body .movies .movie_block h3 {
+  max-width: 100%;
+  margin: 0;
+  text-align: center;
+}
+body .movies .movie_block h3 a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.5em;
+}
+body .movies .movie_block h3 a:hover {
+  color: red;
+}
+
+/*# sourceMappingURL=App.css.map */
