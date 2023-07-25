@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/kinoteatr/static/css/main.52ae5b76.css",
-    "main.js": "/kinoteatr/static/js/main.c8d80e8b.js",
+    "main.css": "/kinoteatr/static/css/main.de245a55.css",
+    "main.js": "/kinoteatr/static/js/main.df91130a.js",
     "index.html": "/kinoteatr/index.html",
-    "main.52ae5b76.css.map": "/kinoteatr/static/css/main.52ae5b76.css.map",
-    "main.c8d80e8b.js.map": "/kinoteatr/static/js/main.c8d80e8b.js.map"
+    "main.de245a55.css.map": "/kinoteatr/static/css/main.de245a55.css.map",
+    "main.df91130a.js.map": "/kinoteatr/static/js/main.df91130a.js.map"
   },
   "entrypoints": [
-    "static/css/main.52ae5b76.css",
-    "static/js/main.c8d80e8b.js"
+    "static/css/main.de245a55.css",
+    "static/js/main.df91130a.js"
   ]
 }
